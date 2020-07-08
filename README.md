@@ -34,7 +34,7 @@ sudo tar xf yarn.tar.gz --strip 1 -C /usr
 rm -f yarn.tar.gz
 
 # setup machine for the dummy app
-sudo mkdir /var/app/logs
+sudo mkdir -p /var/app/logs
 sudo chown -R ubuntu:ubuntu /var/app
 
 # clone the dummy app
