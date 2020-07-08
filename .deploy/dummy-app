@@ -1,0 +1,11 @@
+/var/app/logs/dummy-app.log {
+  daily
+  missingok
+  copytruncate
+  create
+  compress
+  rotate 7
+  size 100M
+  delaycompress
+  create 640 ubuntu ubuntu
+}
